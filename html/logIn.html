@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログイン</title>
+    <script src="../js/lib/jquery-3.4.1.min.js"></script>
+
+    <style>
+        body{
+            padding: 0px 10px;
+        }
+        .form{
+            margin: 0px auto;
+        }
+        .form label{
+            font-size: small;
+            display: block;
+        }
+        .form input{
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: large;
+            background-color: aliceblue;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        .wideBtn{
+            width: 100%;
+            background-color: lightblue;
+            color: black;
+            border-radius: 10px;
+            height: 40px;
+            font-weight: bold;
+        }
+        .blockLink{
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+    <script>
+        $(function(){
+            $("#loginBtn").on("click", (e) => {
+                window.location.href = "./home.html";
+            })
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <img src="" alt="サイトアイコン">
+    </header>
+    <h1>Twitterにログイン</h1>
+    <div class="form">
+        <div>
+            <label for="userName">ユーザー名</label>
+            <input type="text" id="userName">
+        </div>
+        <div>
+            <label for="password">パスワード</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="e_mail">メールアドレス</label>
+            <input type="email" id="e_mail">
+        </div>
+    
+    </div>
+    
+    <button id="loginBtn" class="wideBtn">ログイン</button>
+    <br><br>
+    <div>
+        <a class="blockLink" href="">パスワードをお忘れですか？</a>
+        <a class="blockLink" href="">アカウント作成</a>
+    </div>
+</body>
+</html>
