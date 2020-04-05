@@ -1,0 +1,8 @@
+header{
+    border-bottom: 1px solid black;
+}
+header > .userIcon{
+    height: 50px;
+    width:  50px;
+    border-radius: 25px;
+}
