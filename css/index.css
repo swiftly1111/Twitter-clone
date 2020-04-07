@@ -1,0 +1,31 @@
+.btn-flat-simple {
+  float: left;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #00BCD4;
+  transition: .4s;
+  width: 60px;
+  height: 20px;
+}
+.category{
+  width: 76px;
+  float: left;
+  display: inline-block;
+}
+.btn-flat-simple:hover {
+  background: #00bcd4;
+  color: white;
+}
+footer{
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+}
+.body {
+ 		  width:380px;
+      height: 100vh;
+      height: auto;
+  	}
+  }
