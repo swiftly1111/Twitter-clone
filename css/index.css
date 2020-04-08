@@ -7,25 +7,33 @@
   text-decoration: none;
   color: #00BCD4;
   transition: .4s;
-  width: 60px;
+  width: auto;
   height: 20px;
 }
 .category{
-  width: 76px;
+  position: fixed;
+  width: 100%;
   float: left;
   display: inline-block;
+  left: 0;
+  right: 0;
 }
 .btn-flat-simple:hover {
   background: #00bcd4;
   color: white;
+  display: inline-block;
 }
 footer{
-    position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
+    position: fixed;/*←絶対位置*/
+    bottom: 0;
+    width: 100%;
+    left:0;
+    right:0;/*下に固定*/
 }
 .body {
- 		  width:380px;
-      height: 100vh;
+ 		  width:100%;
+      height: 100%;
       height: auto;
+      margin: 0;
   	}
   }
