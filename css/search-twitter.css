@@ -1,4 +1,9 @@
-.btn-flat-simple {
+.search_twitter input{
+    margin: 7px;
+    border: 1px solid black;
+    padding: 7px;
+}
+.category {
   float: left;
   position: relative;
   display: inline-block;
@@ -6,34 +11,31 @@
   padding: 0.25em 0.5em;
   text-decoration: none;
   color: #00BCD4;
-  transition: .4s;
-  width: auto;
   height: 20px;
-}
-.category{
-  position: fixed;
-  width: 100%;
-  float: left;
-  display: inline-block;
   left: 0;
   right: 0;
+  width: 100%;
 }
 .btn-flat-simple:hover {
   background: #00bcd4;
   color: white;
-  display: inline-block;
 }
 footer{
-    position: fixed;/*←絶対位置*/
-    bottom: 0;
-    width: 100%;
-    left:0;
-    right:0;/*下に固定*/
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  float: left;
+  background-color: #eaf6fd;
+  left: 0;
+  right: 0;
 }
-.body {
- 		  width:100%;
-      height: 100%;
-      height: auto;
-      margin: 0;
-  	}
-  }
+.icon{
+  width: calc(25vw - 2px) ;
+  height: 7vh;
+  text-align: center;
+  border: 1px solid black;
+}
+.icon_img{
+  width: auto;
+  height: 10vw;
+}
