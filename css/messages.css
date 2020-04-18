@@ -1,0 +1,47 @@
+.messages{
+    font-size: 0.7em;
+    text-align: center;
+}
+.search_messages input{
+    margin: 7px;
+    border: 1px solid black;
+    padding: 7px;
+    width: 90%;
+}
+.search_messages{
+    text-align: center;
+
+}
+.category {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  color: #00BCD4;
+  height: 20px;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.btn-flat-simple:hover {
+  background: #00bcd4;
+  color: white;
+}
+footer{
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  float: left;
+  background-color: #eaf6fd;
+  left: 0;
+  right: 0;
+}
+.icon{
+  width: calc(25vw - 2px) ;
+  height: 7vh;
+  text-align: center;
+  border: 1px solid black;
+}
+.icon_img{
+  width: auto;
+  height: 10vw;
+}
