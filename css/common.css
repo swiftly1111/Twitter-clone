@@ -1,3 +1,4 @@
+
 header{
     border-bottom: 1px solid black;
 }
@@ -5,4 +6,28 @@ header > .userIcon{
     height: 50px;
     width:  50px;
     border-radius: 25px;
+}
+
+
+#footer_wrap{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+footer{
+	position: absolute;
+	display:	flex;
+    bottom: 0px;
+    left:	0px;
+}
+.footer_btn{
+	height:	40px;
+	width:	calc((100vw / 4) - 2px);
+	border: 1px solid black;
+}
+.footer_btn > img{
+	width:	20px;
+	margin:	0px auto;
 }
