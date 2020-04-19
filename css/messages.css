@@ -2,6 +2,7 @@
     font-size: 0.7em;
     text-align: center;
 }
+
 .search_messages input{
     margin: 7px;
     border: 1px solid black;
@@ -10,7 +11,22 @@
 }
 .search_messages{
     text-align: center;
-
+}
+.stack_of_messages{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.if_no_messages1{
+  font-size: small;
+  text-align: center;
+}
+.if_no_messages2{
+  text-align: center;
+}
+.stack_of_messages a{
+  text-align: center;
+  vertical-align:  middle;
 }
 .category {
   position: relative;

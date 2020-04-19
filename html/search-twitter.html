@@ -9,28 +9,34 @@
     <style media="screen">
     </style>
     <link rel="stylesheet" href="../css/search-twitter.css">
+    <script src="../js/lib/jquery-3.4.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../js/search-twitter.js"></script>
   </head>
   <body>
     <div class="search_twitter">
-      <input type="text" name="example2" maxlength="30" value="" placeholder="Search Twitter">
+      <img class="circle_icon_img" src="../images/user_icon.jpg" alt="user_icon">
+      <input type="text" name="example2" maxlength="30" value="" placeholder="🔍Search Twitter">
     </div>
     <div class="category">
       <a href="#" class="btn-flat-simple">
-  <i class="fa fa-caret-right"></i>Top
+  <i class="fa fa-caret-right"></i>For you
       </a>
       <a href="#" class="btn-flat-simple">
-  <i class="fa fa-caret-right"></i>Latest
+  <i class="fa fa-caret-right"></i>Trending
       </a>
       <a href="#" class="btn-flat-simple">
-  <i class="fa fa-caret-right"></i>People
+  <i class="fa fa-caret-right"></i>News
       </a>
       <a href="#" class="btn-flat-simple">
-  <i class="fa fa-caret-right"></i>Photos
+  <i class="fa fa-caret-right"></i>Sports
       </a>
       <a href="#" class="btn-flat-simple">
-  <i class="fa fa-caret-right"></i>Videos
+  <i class="fa fa-caret-right"></i>Fun
       </a>
     </div>
+    <a id="tweet" href="#">
+      <img id="tweet_btn" src="../images/tweet_icon.png" alt="tweet">
+    </a>
     <div class="icon_bar">
       <footer>
       <a href="#" class="icon">
@@ -42,7 +48,7 @@
       <a href="#" class="icon">
     <img class="icon_img" src="../images/bell_icon.png" alt="Home">
       </a>
-      <a href="#" class="icon">
+      <a href="#" class="icon" id="mail_icon">
     <img class="icon_img" src="../images/mail_icon.png" alt="Home">
       </a>
       </footer>
