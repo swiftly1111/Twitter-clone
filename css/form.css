@@ -1,0 +1,19 @@
+
+
+div.f_form{
+    margin: 0px auto;
+}
+.f_form label{
+    font-size: small;
+    display: block;
+}
+.f_form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: large;
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid black;
+}
+

@@ -41,5 +41,37 @@ footer{
 * 標準スタイル
 */
 
+/*
+* ボタン関係
+*/
 
+/* 標準ボタン */
+.g_btn{
+    height: 40px;
+    min-width: 100px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: cyan;
+    margin: 10px 10px;
+}
+/* キャンセルボタン */
+.g_cancelBtn{
+    height: 40px;
+    min-width: 100px;
+    margin: 10px auto;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    border-color: red;
+    color: gray;
+}
+/* 幅が広めのボタン */
+.g_wideBtn{
+    width: 80%;
+}
 
+/* ボタンラッパー：水平並び */
+.g_btnListH{
+    text-align: center;
+}
