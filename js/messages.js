@@ -1,5 +1,5 @@
 $(function(){
-	$("#icon_search").on("click", function() {
-		window.location.href = "./search.html";
+	$("#search_icon").on("click", function() {
+		window.location.href = "./search-twitter.html";
 	});
 });
