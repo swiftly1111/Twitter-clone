@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アカウント登録</title>
+    <script src="../js/lib/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    
+    <script src="../js/signup.js"></script>
+    <link rel="stylesheet" href="../css/form.css">
+
+    <style>
+        body{
+            padding: 0px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="" alt="サイトアイコン">
+    </header>
+    <h1>ようこそ</h1>
+    <div class="f_form">
+        <div>
+            <label for="userName">ユーザー名</label>
+            <input type="text" id="userName">
+        </div>
+        <div>
+            <label for="password">パスワード</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="e_mail">メールアドレス</label>
+            <input type="email" id="e_mail">
+        </div>
+    </div>
+    
+    <div class="g_btnListH">
+        <button id="registerBtn" class="g_btn">登録</button>
+        <button id="cancelBtn" class="g_cancelBtn">キャンセル</button>
+    </div>
+</body>
+</html>
