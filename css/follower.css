@@ -1,0 +1,84 @@
+
+body{
+    margin: 5px;
+}
+header > #pageTitle{
+    line-height: 50px;
+    padding-left: 60px;
+    font-size: x-large;
+}
+header > .userIcon{
+    position: absolute;
+}
+
+.tabs{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    margin-bottom: 0px;
+}
+.tab{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: calc((100% / 2) - 2px);
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px 15px 0px 0px;
+}
+.tab.active{
+    background-color: aquamarine;
+}
+
+#followArea{
+    overflow-y: scroll;
+    height: calc(100vh - (110px + 1em));
+}
+
+#followList{
+    list-style: none;
+    padding-left: 0px;
+    border-top: 1px solid gray;
+    margin: 0px auto;
+}
+
+#followList li{
+    border-bottom: 1px solid gray;
+    position: relative;
+    padding: 10px 0px;
+}
+
+#followList > li > .userIcon{
+    position: absolute;
+}
+
+#followList > li > div{
+    margin-left: 50px;
+    position: relative;
+}
+
+#followList .userName{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.following, .unfollow{
+    position: absolute;
+    right: 0px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 1px solid skyblue;
+}
+
+.following{
+    background-color: skyblue;
+    color: white;
+}
+.unfollow{
+    background: none;
+    color: teal;
+}
+
+

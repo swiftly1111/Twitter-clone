@@ -75,3 +75,12 @@ footer{
 .g_btnListH{
     text-align: center;
 }
+
+/*
+* アイコン関係
+*/
+.userIcon{
+    height: 50px;
+    width:  50px;
+    border-radius: 25px;
+}
