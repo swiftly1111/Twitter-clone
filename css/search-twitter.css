@@ -107,6 +107,11 @@ footer{
   border: 1px solid black;
 }
 .icon_img{
+  position: relative;
   width: auto;
   height: 10vw;
+  bottom: 0em;
+  display: inline-block;
+  padding-bottom: 0em;
+
 }
