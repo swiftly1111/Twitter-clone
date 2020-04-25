@@ -35,29 +35,34 @@ header > .userIcon{
     height: calc(100vh - (110px + 1em));
 }
 
-#followList{
+#searchResult{
+    overflow-y: scroll;
+    height: calc(100vh - (110px + 1em));
+}
+
+#userList{
     list-style: none;
     padding-left: 0px;
     border-top: 1px solid gray;
     margin: 0px auto;
 }
 
-#followList li{
+#userList li{
     border-bottom: 1px solid gray;
     position: relative;
     padding: 10px 0px;
 }
 
-#followList > li > .userIcon{
+#userList > li > .userIcon{
     position: absolute;
 }
 
-#followList > li > div{
+#userList > li > div{
     margin-left: 50px;
     position: relative;
 }
 
-#followList .userName{
+#userList .userName{
     font-weight: bold;
     font-size: 20px;
 }

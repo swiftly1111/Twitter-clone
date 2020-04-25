@@ -1,110 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>フォロワー</title>
-    <script src="../js/lib/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" href="../css/common.css">
+    <title>ユーザー名</title>
 
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/follower.css">
-    <script src="../js/follower.js"></script>
+    <link rel="stylesheet" href="../css/search.css">
 </head>
 <body>
-    <header>
-        <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-        <span id="pageTitle">フォロワー</span>
-    </header>
-    <ul class="tabs">
-        <li class="tab" title="followArea">フォロー中</li>
-        <li class="tab" title="followerArea">フォロワー</li>
-    </ul>
-    <div id="followArea">
-        <ul id="userList">
-            <li>
-                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-                <div>
-                    <span class="userName">ユーザー名</span>
-                    <button class="following">フォロー中</button>
-                </div>
-                <div class="profile">
-                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
-                </div>
-            </li>
-            <li>
-                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-                <div>
-                    <span class="userName">ユーザー名</span>
-                    <button class="unfollow">フォローする</button>
-                </div>
-                <div class="profile">
-                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
-                </div>
-            </li>
-            <li>
-                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-                <div>
-                    <span class="userName">ユーザー名</span>
-                    <button class="following">フォロー中</button>
-                </div>
-                <div class="profile">
-                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
-                </div>
-            </li>
-            <li>
-                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-                <div>
-                    <span class="userName">ユーザー名</span>
-                    <button class="unfollow">フォローする</button>
-                </div>
-                <div class="profile">
-                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
-                </div>
-            </li>
-            <li>
-                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-                <div>
-                    <span class="userName">ユーザー名</span>
-                    <button class="following">フォロー中</button>
-                </div>
-                <div class="profile">
-                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
-                </div>
-            </li>
-            <li>
-                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-                <div>
-                    <span class="userName">ユーザー名</span>
-                    <button class="unfollow">フォローする</button>
-                </div>
-                <div class="profile">
-                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
-                </div>
-            </li>
-            <li>
-                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-                <div>
-                    <span class="userName">ユーザー名</span>
-                    <button class="following">フォロー中</button>
-                </div>
-                <div class="profile">
-                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
-                </div>
-            </li>
-            <li>
-                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-                <div>
-                    <span class="userName">ユーザー名</span>
-                    <button class="unfollow">フォローする</button>
-                </div>
-                <div class="profile">
-                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
-                </div>
-            </li>
-        </ul>
+    <div id="topArea">
+        <div id="searchInput">
+            <img class="userIcon" src="../images/user_icon.jpg" alt="">
+            <input type="text" name="keyword" id="keyword" placeholder="🔍キーワード検索">
+            <img src="" alt="">
+        </div>
+        <div id="resultMenu">
+        </div>
     </div>
-    <div id="followerArea">
+    <div id="searchResult">
         <ul id="userList">
+            <li>
+                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
+                <div>
+                    <span class="userName">ユーザー名</span>
+                    <button class="following">フォロー中</button>
+                </div>
+                <div class="profile">
+                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
+                </div>
+            </li>
+            <li>
+                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
+                <div>
+                    <span class="userName">ユーザー名</span>
+                    <button class="unfollow">フォローする</button>
+                </div>
+                <div class="profile">
+                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
+                </div>
+            </li>
+            <li>
+                <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
+                <div>
+                    <span class="userName">ユーザー名</span>
+                    <button class="following">フォロー中</button>
+                </div>
+                <div class="profile">
+                    プロフィールプロフィールプロフィールプロフィールプロフィールプロフィールプロフィール
+                </div>
+            </li>
             <li>
                 <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
                 <div>
