@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ホーム</title>
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <script src="../js/lib/jquery-3.4.1.min.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/home.js"></script>
 </head>
 <body>
     <header>
@@ -19,21 +22,42 @@
 	    <footer>
 	        <button class="footer_btn">
 	            <img src="../images/icons/home.png" alt="ホーム">
-	            
 	        </button>
 	        <button class="footer_btn">
 	            <img src="../images/icons/search.png" alt="検索">
-	            
 	        </button>
 	        <button class="footer_btn">
 	            <img src="../images/icons/bell.png" alt="通知">
-	            
 	        </button>
 	        <button class="footer_btn">
 	            <img src="../images/icons/mail.png" alt="DM">
-	            
-	        </button>    
+	        </button>
 	    </footer>
+    </div>
+    <div id="side-bar">
+        <img class="userIcon" src="../images/user_icon.jpg" alt="">
+        <h3 class="userName">ユーザー名</h3>
+        <span class="userId">@aaaaaaa</span>
+        <div class="followInfo">
+            <span class="follow"><strong>53</strong>フォロー</span>
+            <span class="follower"><strong>50</strong>フォロワー</span>
+        </div>
+        <ul id="menuLink">
+            <li id="menuProfile">
+                <img class="menuIcon" src="" alt="">
+                <span class="menuLabel">プロフィール</span>
+            </li>
+            <li id="menuTopic">
+                <img class="menuIcon" src="" alt="">
+                <span class="menuLabel">トピック</span>
+            </li>
+            <li id="menuBookmark">
+                <img class="menuIcon" src="" alt="">
+                <span class="menuLabel">ブックマーク</span>
+            </li>
+        </ul>
+        <p id="settingsLink">設定とプライバシー</p>
+        <p id="helpLink">ヘルプセンター</p>
     </div>
 </body>
 </html>
