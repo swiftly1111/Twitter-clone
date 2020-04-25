@@ -1,0 +1,15 @@
+
+#searchInput{
+    position: relative;
+}
+
+#keyword{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50%;
+    width: calc(100% - 100px);
+}
+
+
+
