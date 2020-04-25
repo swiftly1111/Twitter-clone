@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!- //デバイスサイズにあわせて表示領域を変更する ->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search for people and groups</title>
+    <style media="screen">
+    </style>
+    <link rel="stylesheet" href="../css/write_message.css">
+    <script src="../js/lib/jquery-3.4.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../js/write_message.js"></script>
+  </head>
+  <body>
+    <div class="write_message">
+      <img class="back_icon_img" src="../images/back_icon.png" alt="user_icon"> 
+        <h1>New message</h1>
+    </div>
+    <div class="input_message">
+        <input type="text" name="content" maxlength="10000" value="" placeholder="Start a message">
+    </div>
+    <a id="send_message" href="#">
+      <img id="send_btn" src="../images/send_message_icon.png" alt="send">
+    </a>
+    <div class="icon_bar">
+      <footer>
+      <a href="#" class="icon home">
+    <img class="icon_img home" src="../images/home_icon.png" alt="Home"  id = "icon_img home">
+      </a>
+      <a href="#" class="icon search" id = "search_icon">
+    <img class="icon_img search" src="../images/search_icon.png" alt="Search" id = "icon_img search">
+      </a>
+      <a href="#" class="icon bell" id = "bell_icon">
+    <img class="icon_img bell" src="../images/bell_icon.png" alt="Bell" id = "icon_img bell">
+      </a>
+      <a href="#" class="icon mail">
+    <img class="icon_img mail" src="../images/mail_icon.png" alt="Mail" id = "icon_img mail">
+      </a>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+.write_message{
+    font-size: 0.7em;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.back_icon_img{
+  margin: 0 auto;
+  margin-left: 2vw;
+  font-size: 3em;
+  border-radius: 50% 50% 50% 50%;
+  height: 1em;
+  width: 1em;
+  position: relative;
+  top: 0.3em;
+  display: flex;
+  left: 2vw;
+  text-align: left;
+  float: left;
+}
+.write_message h1{
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.search_message{
+  display: inline-block;
+}
+.input_message{
+    width: 90%;
+    height: 80%;
+}
+#send_message {/*円の部分*/
+  position: absolute;
+  right: 1vh;
+  bottom: 1vh;
+  top: 80vh;
+  left: 45vh;
+  display: block;
+  width: 7vh;/*幅*/
+  height: 7vh;/*高さ*/
+  background: #03a9f4;/*背景色*/
+  text-align: center;/*中央寄せ*/
+  border-radius: 50%;/*角丸く*/
+  transition: .3s;/*滑らかな動きに*/
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.12), 0 2px 2px 0 rgba(0,0,0,.24);/*影*/
+
+}
+
+#send_message:hover {/*ホバー時*/
+box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+#send_btn{
+  width: auto;/*幅*/
+  height: 4.7vh;/*高さ*/
+  text-align: center;/*中央寄せ*/
+  vertical-align: middle;
+  position: relative;
+  top: 1vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto; /*上下左右中央に*/
+}
+.category {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  color: #00BCD4;
+  height: 20px;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.btn-flat-simple:hover {
+  background: #00bcd4;
+  color: white;
+}
+footer{
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  float: left;
+  background-color: #eaf6fd;
+  left: 0;
+  right: 0;
+}
+.icon{
+  width: calc(25vw - 2px) ;
+  height: 7vh;
+  text-align: center;
+  border: 1px solid black;
+}
+.icon_img{
+  width: auto;
+  height: 10vw;
+}
