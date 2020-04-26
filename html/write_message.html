@@ -13,12 +13,15 @@
     <script language="JavaScript" type="text/javascript" src="../js/write_message.js"></script>
   </head>
   <body>
-    <div class="write_message">
-      <img class="back_icon_img" src="../images/back_icon.png" alt="user_icon"> 
+    <div class="write_message_title">
+      <img class="back_icon_img" id="back_icon" src="../images/back_icon.png" alt="user_icon"> 
         <h1>New message</h1>
     </div>
-    <div class="input_message">
-        <input type="text" name="content" maxlength="10000" value="" placeholder="Start a message">
+    <div class="write_message">
+    <div class="search_user">
+      <input type="text" id="search_user" name="search_user" maxlength="30" value="" placeholder="🔍Search for people and groups">
+    </div>
+    <textarea id="input_message" placeholder=" 🖊 Start a message"></textarea>
     </div>
     <a id="send_message" href="#">
       <img id="send_btn" src="../images/send_message_icon.png" alt="send">
@@ -34,7 +37,7 @@
       <a href="#" class="icon bell" id = "bell_icon">
     <img class="icon_img bell" src="../images/bell_icon.png" alt="Bell" id = "icon_img bell">
       </a>
-      <a href="#" class="icon mail">
+      <a href="#" class="icon mail" id = "mail_icon">
     <img class="icon_img mail" src="../images/mail_icon.png" alt="Mail" id = "icon_img mail">
       </a>
       </footer>

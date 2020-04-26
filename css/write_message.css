@@ -1,10 +1,22 @@
-.write_message{
+body{
+  position: absolute;
+  display: inline-block;
+  margin: 0em;
+  width: 100vw;
+  height: 100vh;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  bottom: 0;
+}
+.write_message_title{
     font-size: 0.7em;
     text-align: center;
     display: inline-block;
     position: relative;
     width: 100%;
     margin: 0 auto;
+    height: auto;
 }
 .back_icon_img{
   margin: 0 auto;
@@ -20,7 +32,10 @@
   text-align: left;
   float: left;
 }
-.write_message h1{
+#back_icon :hover{
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+.write_message_title h1{
   position: absolute;
   text-align: center;
   display: inline-block;
@@ -29,13 +44,49 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  height: 100%;
 }
-.search_message{
+.write_message{
+  position: relative;
+  margin-top: 2vh;
+  width: 100%;
+}
+.search_user{
+  position: relative;
   display: inline-block;
+  width: 100%;
+  height: 7vh;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+  box-sizing: border-box;
 }
-.input_message{
-    width: 90%;
-    height: 80%;
+#search_user{
+  position: relative;
+  width: 100%;
+  height: 5vh;
+  border-width: 1px 0px 1px 0px;
+  border-color: black;
+  font-size: 2.3vh;
+  box-sizing: border-box;
+}
+.write_message textarea{
+  position: absolute;
+  width: 100%;
+  border-style: solid;
+  border: black 0.5px;
+  box-sizing: border-box;
+}
+#input_message{
+  position: relative;
+  width: 90vw;
+  height: 60vh;
+  font-size: 2.3vh;
+  display: inline-block;
+  margin-left: calc(5vw - 0.5px);
+  margin-right: calc(5vw - 0.5px);
+  border-style: solid;
 }
 #send_message {/*円の部分*/
   position: absolute;
@@ -91,14 +142,18 @@ footer{
   background-color: #eaf6fd;
   left: 0;
   right: 0;
+  text-align: center;
 }
 .icon{
   width: calc(25vw - 2px) ;
   height: 7vh;
   text-align: center;
   border: 1px solid black;
+  vertical-align: auto;
 }
 .icon_img{
+  position: relative;
   width: auto;
   height: 10vw;
+  top: 0.5vh;
 }
