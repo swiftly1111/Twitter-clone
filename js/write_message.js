@@ -1,4 +1,9 @@
 $(function(){
+	$("#back_icon").on("click", function() {
+		window.location.href = "./messages.html";
+	});
+});
+$(function(){
 	$("#search_icon").on("click", function() {
 		window.location.href = "./search-twitter.html";
 	});
@@ -9,12 +14,7 @@ $(function(){
 	});
 });
 $(function(){
-	$("#write_message_long").on("click", function() {
-		window.location.href = "./write_message.html";
-	});
-});
-$(function(){
-	$("#write_message").on("click", function() {
-		window.location.href = "./write_message.html";
+	$("#mail_icon").on("click", function() {
+		window.location.href = "./messages.html";
 	});
 });

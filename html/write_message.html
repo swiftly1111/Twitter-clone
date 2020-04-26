@@ -8,28 +8,23 @@
     <title>Search for people and groups</title>
     <style media="screen">
     </style>
-    <link rel="stylesheet" href="../css/messages.css">
+    <link rel="stylesheet" href="../css/write_message.css">
     <script src="../js/lib/jquery-3.4.1.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="../js/messages.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../js/write_message.js"></script>
   </head>
   <body>
-    <div class="messages">
-        <h1>Messages</h1>
+    <div class="write_message_title">
+      <img class="back_icon_img" id="back_icon" src="../images/back_icon.png" alt="user_icon"> 
+        <h1>New message</h1>
     </div>
-    <div class="search_messages">
-      <input type="text" name="example2" maxlength="30" value="" placeholder="🔍Search for people and groups">
+    <div class="write_message">
+    <div class="search_user">
+      <input type="text" id="search_user" name="search_user" maxlength="30" value="" placeholder="🔍Search for people and groups">
     </div>
-    <div class="stack_of_messages">
-      <div class="if_no_messages1">
-      <h1>Send a message, get a<br>message</h1>
-      </div>
-      <div class="if_no_messages2">
-      <h3>Direct Messages are private conversations<br>between you and other people on Twitter.<br>Share Tweet, media, and more!</h3>
-      <a href="#" id="write_message_long">Write a message</a>
-      </div>
+    <textarea id="input_message" placeholder=" 🖊 Start a message"></textarea>
     </div>
-    <a id="write_message" href="#">
-      <img id="write_btn" src="../images/write_message_icon.png" alt="write">
+    <a id="send_message" href="#">
+      <img id="send_btn" src="../images/send_message_icon.png" alt="send">
     </a>
     <div class="icon_bar">
       <footer>
@@ -42,7 +37,7 @@
       <a href="#" class="icon bell" id = "bell_icon">
     <img class="icon_img bell" src="../images/bell_icon.png" alt="Bell" id = "icon_img bell">
       </a>
-      <a href="#" class="icon mail">
+      <a href="#" class="icon mail" id = "mail_icon">
     <img class="icon_img mail" src="../images/mail_icon.png" alt="Mail" id = "icon_img mail">
       </a>
       </footer>
