@@ -106,6 +106,8 @@ footer{
   border: 1px solid black;
 }
 .icon_img{
+  position: relative;
   width: auto;
   height: 10vw;
+  top: 0.5vh;
 }
