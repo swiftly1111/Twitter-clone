@@ -7,6 +7,9 @@ function move(url){
 }
 
 $(function(){
+
+    activateTabs(".tabs", 0);
+
     $("#menuProfile").on("click", function(e){
         move("./home.html");
     });

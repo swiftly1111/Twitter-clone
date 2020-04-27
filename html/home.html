@@ -6,16 +6,49 @@
     <title>ホーム</title>
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/home.css">
+
     <script src="../js/lib/jquery-3.4.1.min.js"></script>
     <script src="../js/common.js"></script>
     <script src="../js/home.js"></script>
 </head>
 <body>
-    <header>
+    <div id="header">
+        <span class="userName">ユーザー名</span>
+        <span class="tweetNum">ツイート　200</span>
+    </div>
+    <div id="profileArea">
         <img class="userIcon" src="../images/user_icon.jpg" alt="ユーザーアイコン">
-        ホーム
-    </header>
+        <span class="userName">ユーザー名</span>
+        <span class="userId">@aaaaaaaa</span>
+        <div id="profile">
+            あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        </div>
+        <div id="userInfo">
+            <span id="birthDay">誕生日　2000年4月1日</span>
+            <span id="begin">2010年4月1日から利用しています。</span>
+        </div>
+        <div class="followInfo">
+            <span class="follow"><strong>53</strong>フォロー</span>
+            <span class="follower"><strong>50</strong>フォロワー</span>
+        </div>
+    </div>
+    <ul class="tabs">
+        <li class="tab" title="tweetArea">ツイート</li>
+        <li class="tab wide" title="replyArea">ツイートと返信</li>
+        <li class="tab" title="mediaArea">メディア</li>
+        <li class="tab" title="goodArea">いいね</li>
+    </ul>
     <div id="tweetArea">
+        ツイート一覧を記載する
+    </div>
+    <div id="replyArea">
+        ツイート一覧を記載する
+    </div>
+    <div id="mediaArea">
+        ツイート一覧を記載する
+    </div>
+    <div id="goodArea">
         ツイート一覧を記載する
     </div>
     <div id="footer_wrap">
