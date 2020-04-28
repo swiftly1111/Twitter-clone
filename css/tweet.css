@@ -1,0 +1,61 @@
+.tweet_title{
+  position: relative;
+  text-align: center;
+  height: 7vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.back_icon_img{
+    margin: 0 auto;
+    margin-top: 0.5vh;
+    font-size: 3em;
+    width: 0.7em;
+    position: relative;
+    top: 0.1em;
+    left: 2vw;
+    float: left;
+}
+#back_icon :hover{
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+#tweet_btn{
+    position: relative;
+    width:20vw;
+    font-weight:bold;
+    text-decoration:none;
+    padding:0.7vh 0 0.7vh;
+    color:#fff;
+    background-color:#49a9d4;
+    border-radius:3vh;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    margin-right: 4vw;
+}
+.textarea{
+display: inline-block;
+position: absolute;
+height: 90vh;
+width: 98vw;
+vertical-align: top;
+}
+.circle_icon_img{
+  position: relative;
+  float: top;
+  font-size: 1.5em;
+  border-radius: 50% 50% 50% 50%;
+  height: 1.5em;
+  width: 1.5em;
+  top: 0;
+  bottom: 90vh;
+  vertical-align: top;
+}
+#tweet_content{
+  position: relative;
+  border: none;
+  width: 85%;
+  height: 100%;
+  font-family: inherit;
+  font-size: 2.5vh;
+}
