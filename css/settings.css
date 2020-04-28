@@ -1,0 +1,30 @@
+
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+ul > li {
+    padding: 10px 0px;
+    border-bottom: 1px solid;
+}
+
+ul .itemValue, ul .itemName{
+    display: block;
+}
+
+ul input{
+    display: none;
+}
+
+ul.change input{
+    display: inline-block;
+}
+ul.change .itemValue{
+    display: none;
+}
+
+
+
+
+

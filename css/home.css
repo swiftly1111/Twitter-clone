@@ -1,0 +1,38 @@
+
+
+#header{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    background-color: lightblue;
+}
+ul.tabs{
+    position: sticky;
+    top: 60px;
+}
+
+#header > #tweetNum{
+    font-size: 0.8em;
+}
+
+#profileArea{
+    border-bottom: 1px solid gray;
+}
+.userName{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+}
+.userId{
+    color: gray;
+}
+
+#userInfo{
+    color: gray;
+}
+#userInfo > span{
+    display: block;
+}
+
