@@ -10,7 +10,7 @@ $(function(){
 });
 $(function(){
 	$("#mail_icon").on("click", function() {
-		window.location.href = "./messages.html";
+		window.location.href = "./one_message.html";
 	});
 });
 
