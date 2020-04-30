@@ -9,11 +9,6 @@ $(function(){
 	});
 });
 $(function(){
-	$("#message_1").on("click", function() {
-		window.location.href = "./talking.html";
-	});
-});
-$(function(){
 	$("#bell_icon").on("click", function() {
 		window.location.href = "./notification.html";
 	});
@@ -24,7 +19,7 @@ $(function(){
 	});
 });
 $(function(){
-	$("#write_message").on("click", function() {
-		window.location.href = "./write_message.html";
+	$("#mail_icon").on("click", function() {
+		window.location.href = "./one_message.html";
 	});
 });
